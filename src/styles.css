@@ -4,7 +4,7 @@
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 0px;
   padding: 0;
 }
 
@@ -48,27 +48,29 @@ ul {
 
 * {
   box-sizing: border-box;
+  
 }
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  display: flex;
+  justify-content: center;
   padding: 0;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #ffffff;
+  border: 1px solid #02b99a;
   float: left;
-  font-size: 24px;
+  font-size: 45px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 60px;
 }
 
 .board-row:after {
@@ -78,7 +80,9 @@ body {
 }
 
 .status {
+  margin-top: 50px;
   margin-bottom: 10px;
+  color: #0c8c77;
 }
 .game {
   display: flex;
